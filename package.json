@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codebrewlab/capacitor-plugins.git"
+    "url": "git+https://github.com/binhnt13682104/user-agent.git"
   },
   "bugs": {
-    "url": "https://github.com/codebrewlab/capacitor-plugins/issues"
+    "url": "https://github.com/binhnt13682104/user-agent/issues"
   },
   "keywords": [
     "capacitor",
