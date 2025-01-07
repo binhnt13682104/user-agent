@@ -1,0 +1,51 @@
+{
+  "api": {
+    "name": "UserAgentPlugin",
+    "slug": "useragentplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "set",
+        "signature": "(options: { userAgent: string; reloadOnChange?: boolean; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ userAgent: string; reloadOnChange?: boolean | undefined; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "Update the Webview user agent (Android and iOS only). Set reloadOnChange\nto true to reload the page when the user agent changes (default is false).\nStarting from KITKAT Android version, changing the user-agent while loading\na web page causes WebView to initiate loading once again.",
+        "complexTypes": [],
+        "slug": "set"
+      },
+      {
+        "name": "get",
+        "signature": "() => Promise<{ userAgent: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ userAgent: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "get"
+      },
+      {
+        "name": "reset",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "reset"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
